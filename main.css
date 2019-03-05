@@ -1,0 +1,56 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
+
+.s-top {
+    background-color: #000;
+    grid-area: 2 / 2 / span 2 / span 5;
+}
+
+.s-left {
+    background-color: #000;
+    grid-area: 4 / 2 / span 9 / span 2;
+}
+
+.s-right {
+    background-color: #000;
+    grid-area: 5 / 5 / span 9 / span 2;
+}
+
+.s-bottom{
+    background-color: #000;
+    grid-area: 14 / 2 / span 2 / span 5;
+}
+
+.e-top {
+    background-color: #000;
+    grid-area: 2 / 8 / span 5 / span 2;
+}
+
+.e-mid {
+    background-color: #000;
+    grid-area: 8 / 8 / span 2 / span 2;
+}
+
+.e-bottom {
+    background-color: #000;
+    grid-area: 11 / 8 / span 5 / span 2;
+}
+
+.k-left {
+    background-color: #000;
+    grid-area: 2 / 11 / span 14 / span 2;
+}
+
+.k-upper-right {
+    background-color: #000;
+    grid-area: 2 / 14 / span 5 / span 2;
+}
+
+.k-lower-right {
+    background-color: #000;
+    grid-area: 8 / 14 / span 8 / span 2;
+}
